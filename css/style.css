@@ -1,0 +1,60 @@
+:root{
+    --color-f9f9f9: #f9f9f9;
+    --color-ccc: #ccc;
+    --color-verde: green;
+    --color-rojo: #d60000;
+}
+.alertArray{
+    float: right !important;
+    display: flex !important;
+    align-items: center !important;
+    word-break:break-all !important;
+    margin: 0 0 1em 1em !important;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type=number] { -moz-appearance:textfield; }
+
+.material-icons.md-40 { font-size: 40px; }
+
+input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid var(--color-ccc) !important;
+}
+#resultado1{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    background: var(--color-f9f9f9);
+    height: 100px;
+    margin: 10px;
+} 
+ #resultado2, #resultado3, #resultado4,  #resultado6{
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    background: var(--color-f9f9f9);
+    display: none;
+    height: auto;
+    min-height: 100px;
+    margin: 10px 0 ;
+}  
+.si{
+    color: var(--color-verde);
+}
+.no{
+    color: var(--color-rojo)
+}
+
+iframe{
+    width: 100%;
+    height: 100vh;
+}
+table{
+width: 100%;
+}

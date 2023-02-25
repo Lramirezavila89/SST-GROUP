@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>punto # 2 -Prueba técnica SST GROUP - LUIS RAMIREZ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+  <body>
+        <div class="alert alert-secondary" role="alert">
+          <p>6. Se debe realizar una consulta tipo Rest al API de banco de MX del tipo de cambio de los
+          últimos 5 días y mostrarlo en una tabla con fecha y tipo de cambio, a través de una página
+          html básica . 40 pst</p><br>
+          <p><span class="fw-bold">necesarios:</span> https://www.banxico.org.mx/SieAPIRest/service/v1/</p>
+          <p><span class="fw-bold">Api:</span>  https://www.banxico.org.mx/SieAPIRest/service/v1/series/:idSerie/datos/:fechaIni/:fechaFin</p>
+          <p><span class="fw-bold">Method:</span>  GET</p>
+            
+
+        <div class="container py-3 my-3 d-flex justify-content-center align-items-center flex-column  ">
+            
+                  <button type="submit" id="banco" class="btn btn-danger btn-lg py-3">Consultar banco</button>
+              
+            <div id="resultado6"></div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="appPunto6.js"></script>
+
+</body>
+</html>
